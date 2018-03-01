@@ -1,1 +1,26 @@
 // Specific CSS for your home-page
+
+#left {
+  height: 200px;
+  width: 200px;
+  background: red;
+}
+
+#right {
+  height: 200px;
+  width: 200px;
+  background: green;
+}
+
+#top {
+  height: 200px;
+  width: 200px;
+  background: blue;
+}
+
+.go {
+  height: 100px;
+  width: 180px;
+  background: yellow;
+  border: solid 1px black;
+}
