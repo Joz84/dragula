@@ -2,25 +2,43 @@
 
 #left {
   height: 200px;
-  width: 200px;
+  width: 600px;
+  display: flex;
   background: red;
 }
 
 #right {
   height: 200px;
-  width: 200px;
+  width: 600px;
+  display: flex;
   background: green;
 }
 
 #top {
   height: 200px;
-  width: 200px;
+  width: 600px;
+  display: flex;
   background: blue;
 }
 
 .go {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background: yellow;
+  border: solid 1px black;
+}
+
+.go2 {
   height: 100px;
   width: 180px;
-  background: yellow;
+  background: orange;
+  border: solid 1px black;
+}
+
+.go3 {
+  height: 100px;
+  width: 180px;
+  background: pink;
   border: solid 1px black;
 }
