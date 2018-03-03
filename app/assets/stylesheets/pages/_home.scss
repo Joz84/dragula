@@ -1,44 +1,39 @@
 // Specific CSS for your home-page
-
-#left {
-  height: 200px;
-  width: 600px;
+.wrapper {
   display: flex;
-  background: red;
+  // justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-#right {
-  height: 200px;
-  width: 600px;
+.line {
   display: flex;
-  background: green;
 }
 
 #top {
-  height: 200px;
-  width: 600px;
+  height: 100px;
+  width: 430px;
+  background: white;
   display: flex;
-  background: blue;
+  border: dashed 2px black;
+  border-radius: 3px;
 }
 
-.go {
+.square {
+  height: 100px;
+  width: 100px;
+  background: white;
+  border: solid 1px black;
+  margin: 20px 5px;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
   height: 100px;
   width: 100px;
-  background: yellow;
   border: solid 1px black;
-}
-
-.go2 {
-  height: 100px;
-  width: 180px;
-  background: orange;
-  border: solid 1px black;
-}
-
-.go3 {
-  height: 100px;
-  width: 180px;
-  background: pink;
-  border: solid 1px black;
+  padding: 3px;
 }
